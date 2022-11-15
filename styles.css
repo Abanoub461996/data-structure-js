@@ -1,0 +1,12 @@
+#list{
+    border: 1px solid cyan;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+#list .listItem{
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+#list .listItem:last-child{
+    border-bottom: none;
+}
